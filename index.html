@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kayseri ve Melikgazi genelinde 7/24 profesyonel oto çekici, oto kurtarma ve yol yardım hizmetleri. En hızlı ve güvenilir çözüm için hemen arayın.">
+    <meta name="keywords" content="kayseri oto çekici, kayseri oto kurtarma, kayseri yol yardımı, melikgazi çekici, kayseri kurtarıcı, talas oto çekici, kocasinan oto kurtarma">
+    <title>Kahraman Oto Kurtarma | Kayseri Oto Çekici & Yol Yardım</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- BoxIcons for minimalist icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scroll-bar"></div>
+    </div>
+
+    <!-- Background Blobs -->
+    <div class="bg-blobs">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader-truck">
+            <i class='bx bxs-truck'></i>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class='bx bxs-truck'></i>
+                <div class="logo-text">
+                    <span>Kahraman<span class="highlight">Oto Kurtarma</span></span>
+                    <div class="live-status">
+                        <span class="pulse-green"></span> 7/24 Aktif
+                    </div>
+                </div>
+            </a>
+            <nav class="nav-links">
+                <a href="#home">Ana Sayfa</a>
+                <a href="#services">Hizmetler</a>
+                <a href="#features">Neden Biz?</a>
+                <a href="#contact">İletişim</a>
+            </nav>
+            <a href="tel:+905516840985" class="btn-primary cta-pulse-btn">
+                <i class='bx bxs-phone-call'></i> 0551 684 09 85
+            </a>
+            <div class="mobile-menu-btn">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <!-- Image loaded via CSS -->
+            <div class="overlay"></div>
+        </div>
+        
+        <div class="container hero-content">
+            <div class="hero-text-box">
+                <div class="badge">
+                    <span class="pulse-dot"></span> 7/24 Kesintisiz Hizmet
+                </div>
+                <h1 class="animate-up">Yolda Kalmayın, <br> <span class="highlight-text">Güvende Kalın.</span></h1>
+                <p class="animate-up delay-1">Şehrin her noktasına kısa sürede ulaşıyoruz. Profesyonel, hasarsız ve hızlı oto kurtarma çözümleri.</p>
+                
+                <div class="hero-actions animate-up delay-2">
+                    <a href="tel:+905516840985" class="btn-large btn-primary cta-pulse-btn">
+                        <i class='bx bx-phone'></i> Acil Çekici İste
+                    </a>
+                    <a href="#" id="whatsapp-location-btn" class="btn-large btn-secondary glass-btn">
+                        <i class='bx bxl-whatsapp'></i> Konum Gönder
+                    </a>
+                </div>
+                
+                <div class="stats animate-up delay-3">
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="15">0</h3><span>dk</span>
+                        <p>Ortalama Varış</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="5000">0</h3><span>+</span>
+                        <p>Mutlu Müşteri</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual animate-fade">
+                <!-- Decorative glass panel -->
+                <div class="glass-panel floating">
+                    <div class="panel-header">
+                        <i class='bx bx-map-pin'></i> Canlı Konum Takibi
+                    </div>
+                    <div class="panel-body">
+                        <div class="map-mockup">
+                            <div class="radar"></div>
+                            <div class="marker truck-marker"><i class='bx bxs-truck'></i></div>
+                            <div class="marker user-marker"><i class='bx bx-user'></i></div>
+                            <svg class="route-line" viewBox="0 0 100 100">
+                                <path d="M 20 80 Q 50 50 80 20" stroke="var(--primary)" fill="transparent" stroke-width="2" stroke-dasharray="5,5" class="dashed-path"/>
+                            </svg>
+                        </div>
+                        <p class="status-text">Çekici size doğru yaklaşıyor...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#services" class="scroll-indicator">
+            <p>Aşağı Kaydır</p>
+            <i class='bx bx-chevron-down bouncing'></i>
+        </a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Profesyonel <span class="highlight">Hizmetlerimiz</span></h2>
+                <p class="section-subtitle">Her türlü araç arızası ve kazasında yanınızdayız.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card glass-card reveal">
+                    <div class="icon-wrapper">
+                        <i class='bx bx-car'></i>
+                    </div>
+                    <h3>Oto Kurtarma</h3>
+                    <p>Kazalı veya arızalı binek araçlarınızı güvenle ve çiziksiz olarak istediğiniz noktaya taşıyoruz.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card glass-card reveal delay-1">
+                    <div class="icon-wrapper">
+                        <i class='bx bxs-battery-charging'></i>
+                    </div>
+                    <h3>Akü Takviye</h3>
+                    <p>Akünüz mü bitti? Bulunduğunuz konuma gelip akü takviyesi yapıyor, yolunuza devam etmenizi sağlıyoruz.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card glass-card reveal delay-2">
+                    <div class="icon-wrapper">
+                        <i class='bx bx-cycling'></i>
+                    </div>
+                    <h3>Motor Kurtarma</h3>
+                    <p>2, 3 ve ya 4 tekerlikli motor, motosiklet, akülü araç vs. her türlü aracınızı tek ya da grup olarak taşıyoruz.</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card glass-card reveal delay-3">
+                    <div class="icon-wrapper">
+                        <i class='bx bxs-truck'></i>
+                    </div>
+                    <h3>Ağır Vasıta Çekici</h3>
+                    <p>Kamyonet, minibüs ve ticari araçlarınız için yüksek kapasiteli özel çekici araçlarımız mevcuttur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section features-section">
+        <div class="container features-container">
+            <div class="features-image reveal">
+                <div class="image-wrapper glass-border">
+                    <!-- Placeholder, will style via CSS or inline img -->
+                    <div class="abstract-geometry">
+                        <div class="circle c1"></div>
+                        <div class="circle c2"></div>
+                        <i class='bx bxs-shield-alt-2 huge-icon'></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="features-content reveal delay-1">
+                <div class="badge">Neden Kahraman Oto?</div>
+                <h2 class="section-title">Güvenilirlik ve <span class="highlight">Hız</span> Bir Arada</h2>
+                <p class="feature-lead">Aracınızın yolda kalması streslidir. Biz bu stresi en aza indirmek için çalışıyoruz.</p>
+                
+                <ul class="feature-list">
+                    <li>
+                        <div class="f-icon"><i class='bx bx-time-five'></i></div>
+                        <div class="f-text">
+                            <h4>Ultra Hızlı Müdahale</h4>
+                            <p>Çağrınızdan itibaren en yakın ekibimiz anında yola çıkar.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="f-icon"><i class='bx bx-money'></i></div>
+                        <div class="f-text">
+                            <h4>Şeffaf Fiyatlandırma</h4>
+                            <p>Sürpriz ödemeler yok. Hizmet öncesi net fiyat garantisi veriyoruz.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="f-icon"><i class='bx bx-check-shield'></i></div>
+                        <div class="f-text">
+                            <h4>Kaskolu Taşıma</h4>
+                            <p>Aracınız çekici üzerindeyken tam kapsamlı sigorta altındadır.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="badge">Operasyonlarımız</div>
+                <h2 class="section-title">Sahadan <span class="highlight">Kareler</span></h2>
+                <p class="section-subtitle">Profesyonel ekipmanlarımızla gerçekleştirdiğimiz başarılı kurtarma operasyonları.</p>
+            </div>
+            
+            <div class="gallery-grid reveal delay-1">
+                <div class="gallery-item glass-border">
+                    <div class="gallery-overlay">
+                        <i class='bx bx-zoom-in'></i>
+                    </div>
+                </div>
+                <div class="gallery-item glass-border">
+                    <div class="gallery-overlay">
+                        <i class='bx bx-zoom-in'></i>
+                    </div>
+                </div>
+                <div class="gallery-item glass-border item-wide">
+                    <div class="gallery-overlay">
+                        <i class='bx bx-zoom-in'></i>
+                    </div>
+                </div>
+                <div class="gallery-item glass-border item-tall">
+                    <div class="gallery-overlay">
+                        <i class='bx bx-zoom-in'></i>
+                    </div>
+                </div>
+                <div class="gallery-item glass-border">
+                    <div class="gallery-overlay">
+                        <i class='bx bx-zoom-in'></i>
+                    </div>
+                </div>
+                <div class="gallery-item glass-border">
+                    <div class="gallery-overlay">
+                        <i class='bx bx-zoom-in'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Slider Section -->
+    <section id="testimonials" class="section testimonials-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Müşterilerimiz Ne <span class="highlight">Diyor?</span></h2>
+                <p class="section-subtitle">Yıllardır güvenle hizmet verdiğimiz yüzlerce mutlu müşterimiz.</p>
+            </div>
+            
+            <div class="testimonial-container reveal delay-1">
+                <div class="testimonial-slider" id="testimonial-slider">
+                    <!-- Review 1 -->
+                    <div class="testimonial-card glass-panel">
+                        <div class="stars">
+                            <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                        </div>
+                        <p class="review-text">"Gece saat 03:00'te güneşli civarında kaldım. 25 dakikada geldiler, çok profesyonel ve güler yüzlü bir ekipti. Kesinlikle tavsiye ederim."</p>
+                        <div class="user-info">
+                            <div class="avatar">AH</div>
+                            <div class="user-details">
+                                <h4>Ahmet Yılmaz</h4>
+                                <span>Yerel Rehber</span>
+                            </div>
+                        </div>
+                        <i class='bx bxs-quote-alt-right quote-icon'></i>
+                    </div>
+                    
+                    <!-- Review 2 -->
+                    <div class="testimonial-card glass-panel">
+                        <div class="stars">
+                            <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                        </div>
+                        <p class="review-text">"Aracımın altı yere çok yakındı, çekiciye yüklerken hiç zarar vermediler. Özel aparatları sayesinde içim rahat etti. İşlerini çok iyi yapıyorlar."</p>
+                        <div class="user-info">
+                            <div class="avatar">ME</div>
+                            <div class="user-details">
+                                <h4>Mehmet E.</h4>
+                                <span>1 ay önce</span>
+                            </div>
+                        </div>
+                        <i class='bx bxs-quote-alt-right quote-icon'></i>
+                    </div>
+                    
+                    <!-- Review 3 -->
+                    <div class="testimonial-card glass-panel">
+                        <div class="stars">
+                            <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star-half'></i>
+                        </div>
+                        <p class="review-text">"Akü takviyesi için aradım. Çok hızlı bir arkadaş yönlendirdiler geldi ve işimi 5 dakikada çözdü. Fiyatları da oldukça makul."</p>
+                        <div class="user-info">
+                            <div class="avatar">AK</div>
+                            <div class="user-details">
+                                <h4>Ayşe K.</h4>
+                                <span>2 hafta önce</span>
+                            </div>
+                        </div>
+                        <i class='bx bxs-quote-alt-right quote-icon'></i>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-btn prev-btn" id="prev-btn"><i class='bx bx-chevron-left'></i></button>
+                    <div class="slider-dots" id="slider-dots">
+                        <!-- Dots injected via JS -->
+                    </div>
+                    <button class="slider-btn next-btn" id="next-btn"><i class='bx bx-chevron-right'></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="badge">Merak Edilenler</div>
+                <h2 class="section-title">Sıkça Sorulan <span class="highlight">Sorular</span></h2>
+                <p class="section-subtitle">Aklınıza takılan soruların yanıtlarını burada bulabilirsiniz.</p>
+            </div>
+
+            <div class="faq-accordion reveal delay-1">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Çekici ne kadar sürede yanıma ulaşır?</span>
+                        <i class='bx bx-plus'></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Trafik ve hava koşullarına bağlı olarak ortalama varış süremiz 15 ile 30 dakika arasındadır. Çağrınız alındığında ekibimiz en hızlı rotayı belirleyerek yola çıkar.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>7/24 hizmet veriyor musunuz? Gece tarifesi farklı mı?</span>
+                        <i class='bx bx-plus'></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Evet, yılın 365 günü, günün 24 saati kesintisiz hizmet veriyoruz. Fiyatlandırmamızda şeffaflık ilkesini benimsiyoruz; gece veya gündüz standart tarifelerimiz üzerinden hizmet sağlıyoruz.</p>
+                    </div>
+                </div>
+
+
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Ödeme yöntemleriniz nelerdir?</span>
+                        <i class='bx bx-plus'></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nakit ödemenin yanı sıra tüm kredi kartları ile ödeme kabul ediyoruz. Ayrıca kurumsal müşterilerimiz için fatura imkanı sunmaktayız.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="cta-banner reveal">
+        <div class="container cta-container glass-panel cta-glass">
+            <div class="cta-text">
+                <h2>Acil durumlarda yanınızdayız!</h2>
+                <p>Beklemek yok, hemen arayın, sizi bulunduğunuz zor durumdan kurtaralım.</p>
+            </div>
+            <div class="cta-btns">
+                <a href="tel:+905516840985" class="btn-primary btn-large cta-pulse-btn">
+                    <i class='bx bxs-phone'></i> 0551 684 09 85
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <i class='bx bxs-truck'></i>
+                    <span>Kahraman<span class="highlight">Oto Kurtarma</span></span>
+                </a>
+                <p>Türkiye'nin en güvenilir otoyol asistanı. 7 gün 24 saat yanınızda.</p>
+                <div class="social-links">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Hızlı Linkler</h3>
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#services">Hizmetlerimiz</a></li>
+                    <li><a href="#features">Hakkımızda</a></li>
+                    <li><a href="#">Fiyat Listesi</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h3>İletişim</h3>
+                <ul class="contact-info">
+
+                    <li><i class='bx bx-phone'></i> +90 551 684 09 85</li>
+                    <li><i class='bx bx-envelope'></i> ikahraman716@gmail.com</li>
+                </ul>
+            </div>
+            
+
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Kahraman Oto Kurtarma. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/905516840985" class="floating-wa" target="_blank" aria-label="WhatsApp ile İletişime Geç">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <button class="lightbox-btn lb-prev"><i class='bx bx-chevron-left'></i></button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Galeri Görseli">
+        </div>
+        <button class="lightbox-btn lb-next"><i class='bx bx-chevron-right'></i></button>
+    </div>
+
+    <!-- Emergency Call Modal (for Desktop) -->
+    <div id="emergency-modal" class="modal">
+        <div class="modal-content glass-panel">
+            <span class="modal-close">&times;</span>
+            <div class="modal-header">
+                <i class='bx bxs-phone-call pulse-icon'></i>
+                <h3>Hemen Arayın</h3>
+            </div>
+            <div class="modal-body">
+                <p>Acil yardıma ihtiyacınız mı var? Aşağıdaki numaradan bize anında ulaşabilirsiniz:</p>
+                <div class="phone-display">
+                    <span id="target-phone">0551 684 09 85</span>
+                    <button id="copy-phone" title="Numarayı Kopyala"><i class='bx bx-copy'></i></button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="tel:+905516840985" class="btn-primary btn-block">
+                    <i class='bx bxs-phone'></i> Aramayı Başlat
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast-notification" class="toast">
+        <div class="toast-content">
+            <i class='bx bx-phone-incoming'></i>
+            <span id="toast-message">Aranıyor...</span>
+        </div>
+        <div class="toast-progress"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
